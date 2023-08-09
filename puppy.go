@@ -4,6 +4,8 @@ import (
 	"github.com/saitama-op/dog"
 )
 
+var VersionStr string = "v1.0.0"
+
 func Bark() string {
 	return "Woof!"
 }
@@ -18,4 +20,8 @@ func BigBark() string {
 
 func BigBarks() string {
 	return dog.WhenGrownUp(Barks())
+}
+
+func Version() string {
+	return VersionStr
 }
