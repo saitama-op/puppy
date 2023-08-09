@@ -4,7 +4,7 @@ import (
 	"github.com/saitama-op/dog"
 )
 
-var VersionStr string = "v1.1.0"
+var VersionStr string = "v1.2.0"
 
 func Bark() string {
 	return "Woof!"
